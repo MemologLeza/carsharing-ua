@@ -1,0 +1,41 @@
+.catalog-filters {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    gap: 10px
+}
+
+.filter-form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.filter-form-field-label {
+    font-size: 14px;
+    color: #8c8c8c;
+}
+.custom-dropdown-button {
+    background: #F7F7FB !important;
+    border-radius: 14px;
+    border: none;
+    color: #868686 !important;
+    border: none !important;
+}
+
+.custom-dropdown-menu {
+    max-width: 224px;
+    max-height: 272px;
+    overflow-y: auto;
+    border-radius: 14px;
+}
+
+.custom-dropdown-item {
+    color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background: none !important;
+    color: #000 !important;
+}

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./MainContent.css";
 const MainContent = () => {
   return (
-    <div>
+    <div className="homepage-container">
       <section className="container mt-5">
         <div className="welcome-section">
           <h1>Welcome to CarRent</h1>

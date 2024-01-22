@@ -1,10 +1,14 @@
 
-.container {
-    max-width: 800px;
+.homepage-container {
+    /* max-width: 800px; */
+    background-color: #dceeff;
+    -webkit-box-shadow: 0px 0px 60px 38px rgba(220, 238, 255, 1);
+        -moz-box-shadow: 0px 0px 60px 38px rgba(220, 238, 255, 1);
+        box-shadow: 0px 0px 60px 38px rgba(220, 238, 255, 1);
+    
 }
 
 .welcome-section {
-    background-color: #f8f9fa;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
