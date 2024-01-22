@@ -15,7 +15,7 @@ const MainContent = () => {
             Whether you're planning a weekend getaway or a month-long road trip,
             we have the perfect car for every occasion.
           </p>
-          <Link className="explore-button" to="/catalog" role="button">
+          <Link className="explore-button" to="catalog" role="button">
             Explore Our Fleet
           </Link>
         </div>

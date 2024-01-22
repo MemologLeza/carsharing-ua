@@ -2,7 +2,6 @@ import HomePage from '../pages/HomePage/HomePage';
 import { Route, Routes } from 'react-router-dom';
 
 import Layouts from '../lauouts/Layout';
-import {store, persistor} from "../store/store"
 import './App.css';
 import CatalogPage from "../pages/CatalogPage/CatalogPage";
 import FavoritePage from "../pages/FavoritePage/FavoritePage"
