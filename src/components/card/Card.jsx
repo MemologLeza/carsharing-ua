@@ -32,11 +32,7 @@ const Card = ({ advert }) => {
   const closeDialog = () => {
     toggleOpen(false);
   };
-  const handleKeyPress = (e) => {
-    if (e.key === "Escape") {
-      closeDialog();
-    }
-  };
+
   return (
     <div className="card-container">
       <div className="card-img-container">

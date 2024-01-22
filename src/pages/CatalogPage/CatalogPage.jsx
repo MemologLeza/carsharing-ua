@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./CatalogPage.css";
 import Card from "../../components/card/Card";
 
 import { useDispatch, useSelector } from "react-redux";
 import { fetchAdverts } from "../../store/thunks/advertsThunks";
-import { setAdverts, setCurrentPage } from "../../store/adverts/advertsSlice";
 import DropdownFilters from "../../components/filters/DropdownFilters";
 
 const CatalogPage = () => {

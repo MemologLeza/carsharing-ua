@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./ModalContent.css";
 import "./Card.css";
 const ModalContent = ({ advert, onClose }) => {

@@ -1,5 +1,5 @@
 import "./DropdownFilters.css";
-import { Dropdown, Form } from "react-bootstrap";
+import { Dropdown } from "react-bootstrap";
 const DropdownFilters = () => {
   return (
     <div className="catalog-filters">
