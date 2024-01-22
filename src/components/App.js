@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const App = ()=> {
   return (
     <Routes>
-      <Route path="/carsharing-ua" element={<Layouts/>}>
+      <Route path="/" element={<Layouts/>}>
         <Route index element={<HomePage />}/>
         <Route path='catalog' element={<CatalogPage />}/>
         <Route path='favorites' element={<FavoritePage/>}/>
