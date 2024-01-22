@@ -10,10 +10,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const App = ()=> {
   return (
     <Routes>
-      <Route path="/" element={<Layouts/>}>
+      <Route path="/carsharing-ua" element={<Layouts/>}>
         <Route index element={<HomePage />}/>
-        <Route path='/catalog' element={<CatalogPage />}/>
-        <Route path='/favorites' element={<FavoritePage/>}/>
+        <Route path='catalog' element={<CatalogPage />}/>
+        <Route path='favorites' element={<FavoritePage/>}/>
       </Route>
     </Routes>
       
